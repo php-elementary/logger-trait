@@ -1,5 +1,5 @@
 {
-    "name":         "elementary/loggertrait",
+    "name":         "elementary/logger-trait",
     "description":  "Extend \\Psr\\Log\\LoggerAwareTrait",
     "license":      "MIT",
     "authors": [
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "elementary\\loggertrait\\": "src\\"
+            "elementary\\logger\\traits\\": "src\\"
         }
     },
     "require": {

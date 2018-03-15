@@ -1,6 +1,6 @@
 <?php
 
-namespace elementary\loggertrait;
+namespace elementary\logger\traits;
 
 use Psr\Log\LoggerAwareTrait;
 use Psr\Log\LoggerInterface;
