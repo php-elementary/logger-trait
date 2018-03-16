@@ -2,9 +2,11 @@
 
 namespace elementary\logger\tests;
 
+use elementary\logger\traits\LoggerGetInterface;
 use elementary\logger\traits\LoggerTrait;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\AbstractLogger;
+use Psr\Log\LoggerAwareInterface;
 use Psr\Log\NullLogger;
 
 /**
@@ -30,7 +32,7 @@ class LoggerTraitTest extends TestCase
     }
 }
 
-class LoggerTraitForTest
+class LoggerTraitForTest implements LoggerGetInterface, LoggerAwareInterface
 {
     use LoggerTrait;
 }
