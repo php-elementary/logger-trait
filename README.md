@@ -5,6 +5,7 @@ The trait `LogerTrait` extends `LoggerAwareTrait` with one method `getLoger()`.
 [![Latest Stable Version](https://poser.pugx.org/elementary/logger-trait/v/stable)](https://packagist.org/packages/elementary/logger-trait)
 [![License](https://poser.pugx.org/elementary/logger-trait/license)](https://packagist.org/packages/elementary/logger-trait)
 [![Build Status](https://travis-ci.org/php-elementary/logger-trait.svg?branch=master)](https://travis-ci.org/php-elementary/logger-trait)
+[![Coverage Status](https://coveralls.io/repos/github/php-elementary/logger-trait/badge.svg)](https://coveralls.io/github/php-elementary/logger-trait)
 
 Installation
 ------------
