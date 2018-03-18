@@ -22,6 +22,7 @@
         "sort-packages": true
     },
     "require-dev": {
-        "phpunit/phpunit": "^5"
+        "phpunit/phpunit": "^5",
+        "satooshi/php-coveralls": "^2.0"
     }
 }
